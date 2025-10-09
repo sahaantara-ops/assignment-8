@@ -1,4 +1,5 @@
 import React  from 'react';
+import { Link } from 'react-router'
  
 import { FaCloudDownloadAlt } from "react-icons/fa";
 import { FaRegStar } from "react-icons/fa";
@@ -6,11 +7,12 @@ import { FaRegStar } from "react-icons/fa";
 const App = ({singleApp}) => {
     // const data = use(appsPromise);
     console.log(singleApp)
-const {appCompanyName , appImage,appDescription,appRatingAvg,appDownloads}= singleApp
+const {appCompanyName , appImage,appDescription,appRatingAvg,appDownloads,appId}= singleApp
 
 
     return (
-       <div className="card bg-base-100 w-[348px] h-[435px] shadow-sm ">
+        <Link to={`/AppDetails/${appId}`}>
+            <div className="card bg-base-100 w-[348px] h-[435px] mt-10 shadow-sm ">
   <figure>
     <img className='h-[360px]'
       src={appImage}
@@ -27,7 +29,11 @@ const {appCompanyName , appImage,appDescription,appRatingAvg,appDownloads}= sing
       
     </div>
   </div>
+  
 </div>
+        </Link>
+      
+
     );
 };
 
