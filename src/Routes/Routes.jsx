@@ -5,9 +5,10 @@ import ErrorPage from '../pages/ErrorPage/ErrorPage';
 import Home from '../pages/Home/Home';
 
 
-import install from '../pages/Install/install';
+
 import AppDetails from '../components/AppDetails/AppDetails';
 import AllApps from '../pages/AllApps/AllApps';
+import Readlist from '../components/Readlist/Readlist';
 
 
 
@@ -25,10 +26,7 @@ export const router = createBrowserRouter([
         },
         
 
-    {
-        path:'/Install',
-        Component:install
-    },
+    
     {
         path:'/AppDetails/:id',
         
@@ -39,6 +37,12 @@ export const router = createBrowserRouter([
       path:'/AllApps',
       Component:AllApps,
       
+    },
+    {
+      path:'Readlist',
+      loader:()=>fetch('/public/appData.json'),
+      Component:Readlist,
+
     }
         
             

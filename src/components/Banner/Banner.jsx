@@ -19,11 +19,12 @@ const Banner = () => {
             <div className='flex justify-center'>
                 <button className='flex  w-[180px] h-[60px]  border-2 border-gray-300 rounded-lg p-2 m-5'>
                     <img src={logo} className='w-8 h-8 m-2' alt='' />
-                    <h4 className='text-black font-bold w-[100px] h-[24px]'>Google Play</h4>
+                    <a href='https://play.google.com/store/games?device=windows&pli=1'
+                    className='text-black font-bold w-[100px] h-[24px]'>Google Play</a>
                 </button>
                 <button className='flex  w-[180px] h-[60px]  border-2 border-gray-300 rounded-lg p-2 m-5'>
                     <img src={logo2} className='w-8 h-8 m-2' alt='' />
-                    <h4 className='text-black  font-bold w-[100px] h-[24px]'>App Store</h4>
+                    <a href='https://www.apple.com/app-store/' className='text-black  font-bold w-[100px] h-[24px]'>App Store</a>
                 </button>
             </div>
             <div className='w-full h-full '>
