@@ -9,8 +9,13 @@ const Navbar = () => {
        
        <Link to='/AllApps'><li className='m-2'>App</li></Link>
        <Link to='Readlist'><li className='m-2'>Installation</li></Link>
+
+        
        
     </>
+    const Github = () =>{
+      
+    }
     return (
         <div className="navbar bg-base-100 shadow-sm w-full">
   <div className="navbar-start">
@@ -36,11 +41,10 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end w-full">
-    <button display='flex bg-green w-[145px] h-[43px] rounded-lg p-2'>
-        <a className='text-blue-50'>Contribute</a>
-     <Github className='w-6 h-6 text-fuchsia-700'></Github>
+    <button className="btn btn-secondary">Contribute<Github /></button>
      
-    </button>
+     
+  
   </div>
 </div>
     );

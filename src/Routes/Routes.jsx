@@ -20,17 +20,14 @@ export const router = createBrowserRouter([
     children: [
         {
            index: true,
-           loader:()=>fetch('/public/appData.json'),
+           loader:()=>fetch('/appData.json'),
            path: '/',
            Component:Home
         },
-        
-
-    
     {
         path:'/AppDetails/:id',
         
-        loader:()=>fetch('/public/appData.json'),
+        loader:()=>fetch('/appData.json'),
         Component:AppDetails
     },
     {
@@ -40,7 +37,7 @@ export const router = createBrowserRouter([
     },
     {
       path:'Readlist',
-      loader:()=>fetch('/public/appData.json'),
+      loader:()=>fetch('/appData.json'),
       Component:Readlist,
 
     }

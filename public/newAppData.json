@@ -1,0 +1,182 @@
+[
+  {
+    "image": "https://image2url.com/images/1763025866620-9472e6fb-4a5b-460a-a356-38f1090e63df.png",
+    "title": "Facebook",
+    "companyName": "Meta Platforms Inc.",
+    "id": 1,
+    "description": "Connect with friends, share updates, photos, and join communities on Facebook.",
+    "size": 120,
+    "reviews": "98M",
+    "ratingAvg": 4.2,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": "5.2M" },
+      { "name": "2 star", "count": "3.5M" },
+      { "name": "3 star", "count": "8.2M" },
+      { "name": "4 star", "count": "25M" },
+      { "name": "5 star", "count": "56M" }
+    ]
+  },
+  {
+    "image": "https://image2url.com/images/1763026167621-eca35b58-1ad9-495d-a882-3d3cc133d777.jpg",
+    "title": "Messenger",
+    "companyName": "Meta Platforms Inc.",
+    "id": 2,
+    "description": "Instantly connect with friends and family using free text, voice, and video messages.",
+    "size": 90,
+    "reviews": "56M",
+    "ratingAvg": 4.3,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": "3.2M" },
+      { "name": "2 star", "count": "2.1M" },
+      { "name": "3 star", "count": "6M" },
+      { "name": "4 star", "count": "18M" },
+      { "name": "5 star", "count": "27M" }
+    ]
+  },
+  {
+    "image": "https://image2url.com/images/1763026301429-35b4253c-98b7-476f-bb0d-de8f50766ad6.png",
+    "title": "WhatsApp",
+    "companyName": "Meta Platforms Inc.",
+    "id": 3,
+    "description": "Fast, simple, and secure messaging app that lets you stay in touch with anyone, anywhere.",
+    "size": 80,
+    "reviews": "190M",
+    "ratingAvg": 4.5,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": "8.5M" },
+      { "name": "2 star", "count": "5M" },
+      { "name": "3 star", "count": "9M" },
+      { "name": "4 star", "count": "35M" },
+      { "name": "5 star", "count": "137M" }
+    ]
+  },
+  {
+    "image": "https://image2url.com/images/1763026402555-02feab78-d699-4cce-b2bf-6fbb8a3fc277.webp",
+    "title": "Instagram",
+    "companyName": "Meta Platforms Inc.",
+    "id": 4,
+    "description": "Share your photos, stories, and connect with friends, influencers, and brands worldwide.",
+    "size": 150,
+      "reviews": "145M",
+    "ratingAvg": 4.4,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": "7.2M" },
+      { "name": "2 star", "count": "4.9M" },
+      { "name": "3 star", "count": "10M" },
+      { "name": "4 star", "count": "28M" },
+      { "name": "5 star", "count": "95M" }
+    ]
+  },
+  {
+    "image": "https://image2url.com/images/1763026481849-16cbc816-486e-4248-bc1c-fda19e133c3b.png",
+    "title": "imo",
+    "companyName": "imo.im",
+    "id": 5,
+    "description": "Free video calls and chat app for staying connected with loved ones worldwide.",
+    "size": 60,
+     "reviews": "8.2M",
+    "ratingAvg": 4.1,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": "600K" },
+      { "name": "2 star", "count": "400K" },
+      { "name": "3 star", "count": "1M" },
+      { "name": "4 star", "count": "2.1M" },
+      { "name": "5 star", "count": "4.1M" }
+    ]
+  },
+  {
+    "image": "https://image2url.com/images/1763026548520-b408da24-7024-4d72-89f4-5883e91002b1.webp",
+    "title": "Viber",
+    "companyName": "Rakuten Viber",
+    "id": 6,
+    "description": "Make free calls, send messages, and share media with friends on Viber.",
+    "size": 85,
+    "reviews": "12.5M",
+    "ratingAvg": 4.3,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": "700K" },
+      { "name": "2 star", "count": "500K" },
+      { "name": "3 star", "count": "1.3M" },
+      { "name": "4 star", "count": "3.1M" },
+      { "name": "5 star", "count": "6.9M" }
+    ]
+  },
+  {
+    "image": "https://image2url.com/images/1763026686931-5d648f14-e9db-4918-bd10-8020d37c57d1.png",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 7,
+    "description": "Share moments instantly and stay connected through Snaps, chats, and stories.",
+    "size": 95,
+   "reviews": "30M",
+    "ratingAvg": 4.2,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": "1.8M" },
+      { "name": "2 star", "count": "1.4M" },
+      { "name": "3 star", "count": "3.2M" },
+      { "name": "4 star", "count": "8M" },
+      { "name": "5 star", "count": "15.6M" }
+    ]
+  },
+  {
+    "image": "https://image2url.com/images/1763026757969-40d6e09d-11a3-4c54-95f4-62a57fc77325.png",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 8,
+    "description": "A fast, secure, and powerful messaging app with cloud-based sync and large file sharing.",
+    "size": 70,
+    "reviews": "25M",
+    "ratingAvg": 4.6,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": "1M" },
+      { "name": "2 star", "count": "700K" },
+      { "name": "3 star", "count": "1.2M" },
+      { "name": "4 star", "count": "4.8M" },
+      { "name": "5 star", "count": "17.3M" }
+    ]
+  },
+  {
+    "image": "https://image2url.com/images/1763026841581-40f99a64-f9e3-4330-bcd6-b29ef709639f.webp",
+    "title": "LINE",
+    "companyName": "LINE Corporation",
+    "id": 9,
+    "description": "Free voice calls, messaging, stickers, and updates from your favorite brands.",
+    "size": 88,
+     "reviews": "11M",
+    "ratingAvg": 4.2,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": "600K" },
+      { "name": "2 star", "count": "430K" },
+      { "name": "3 star", "count": "1M" },
+      { "name": "4 star", "count": "2.5M" },
+      { "name": "5 star", "count": "6.5M" }
+    ]
+  },
+  {
+    "image": "https://image2url.com/images/1763026920598-f716909b-0e45-4cd0-9cdc-fa346b7ce850.png",
+    "title": "WeChat",
+    "companyName": "Tencent",
+    "id": 10,
+    "description": "Multi-purpose app for messaging, payments, and social networking.",
+    "size": 180,
+     "reviews": "8.5M",
+    "ratingAvg": 4.0,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": "700K" },
+      { "name": "2 star", "count": "500K" },
+      { "name": "3 star", "count": "1.2M" },
+      { "name": "4 star", "count": "2.2M" },
+      { "name": "5 star", "count": "3.9M" }
+    ]
+  }
+]
