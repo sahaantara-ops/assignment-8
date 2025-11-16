@@ -7,15 +7,14 @@ const Navbar = () => {
     const links = <>
        <Link to='/'><li className='m-2  text-fuchsia-700'>Home</li></Link>
        
-       <Link to='/AllApps'><li className='m-2'>App</li></Link>
+       <Link to='/Apps'><li className='m-2'>Apps</li></Link>
        <Link to='Readlist'><li className='m-2'>Installation</li></Link>
 
         
        
     </>
-    const Github = () =>{
-      
-    }
+  
+
     return (
         <div className="navbar bg-base-100 shadow-sm w-full">
   <div className="navbar-start">
@@ -41,13 +40,14 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end w-full">
-    <button className="btn btn-secondary">Contribute<Github /></button>
+     <button
+    className="btn btn-secondary">Contribute<Github /></button>
      
      
   
   </div>
 </div>
     );
-};
+    };
 
 export default Navbar;

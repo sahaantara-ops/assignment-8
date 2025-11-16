@@ -1,48 +1,41 @@
 import React, { Suspense } from 'react';
 import { createBrowserRouter, RouterProvider} from "react-router";
-import Root from '../pages/Root/Root';
-import ErrorPage from '../pages/ErrorPage/ErrorPage';
+import Errorpage from '../pages/ErrorPage/ErrorPage';
+
+
 import Home from '../pages/Home/Home';
 
 
-
-import AppDetails from '../components/AppDetails/AppDetails';
-import AllApps from '../pages/AllApps/AllApps';
-import Readlist from '../components/Readlist/Readlist';
+import MainLayout from '../components/MainLayout/MainLayout';
+import Apps from '../pages/Apps/Apps';
 
 
 
-export const router = createBrowserRouter([
+ const router = createBrowserRouter([
   {
     path: "/",
-    Component: Root,
-    errorElement:<ErrorPage></ErrorPage>,
+   
+    element:<MainLayout/>,
+    errorElement: <Errorpage/>,
+    hydrateFallbackElement:<p>Loading...</p>,
     children: [
         {
            index: true,
-           loader:()=>fetch('/appData.json'),
-           path: '/',
-           Component:Home
+          //  loader:()=>fetch('/public/newAppData.json'),
+           
+           element: <Home />,
         },
     {
-        path:'/AppDetails/:id',
-        
-        loader:()=>fetch('/appData.json'),
-        Component:AppDetails
+        path: '/apps',
+        element: <Apps />,
     },
     {
-      path:'/AllApps',
-      Component:AllApps,
       
     },
-    {
-      path:'Readlist',
-      loader:()=>fetch('/appData.json'),
-      Component:Readlist,
-
-    }
+    
         
             
     ]
   },
 ]);
+export default router
