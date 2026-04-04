@@ -1,6 +1,7 @@
 import React, { Suspense } from 'react';
 import { createBrowserRouter, RouterProvider} from "react-router";
 import Errorpage from '../pages/ErrorPage/ErrorPage';
+import ProductDetails from '../pages/ProductDetails/ProductDetails';
 
 
 import Home from '../pages/Home/Home';
@@ -30,8 +31,13 @@ import Apps from '../pages/Apps/Apps';
         element: <Apps />,
     },
     {
-      
-    },
+        path: "/apps/:id", // Dynamic route for product details
+        element: (
+          <Suspense fallback={<p>Loading Product...</p>}>
+            <ProductDetails />
+          </Suspense>
+        ),
+      },
     
         
             
