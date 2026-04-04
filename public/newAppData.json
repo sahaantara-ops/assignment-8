@@ -1,182 +1,134 @@
 [
   {
-    "image": "https://image2url.com/images/1763025866620-9472e6fb-4a5b-460a-a356-38f1090e63df.png",
-    "title": "Facebook",
-    "companyName": "Meta Platforms Inc.",
     "id": 1,
-    "description": "Connect with friends, share updates, photos, and join communities on Facebook.",
-    "size": 120,
-    "reviews": "98M",
-    "ratingAvg": 4.2,
-    "downloads": "5B",
-    "ratings": [
-      { "name": "1 star", "count": "5.2M" },
-      { "name": "2 star", "count": "3.5M" },
-      { "name": "3 star", "count": "8.2M" },
-      { "name": "4 star", "count": "25M" },
-      { "name": "5 star", "count": "56M" }
-    ]
-  },
-  {
-    "image": "https://image2url.com/images/1763026167621-eca35b58-1ad9-495d-a882-3d3cc133d777.jpg",
-    "title": "Messenger",
-    "companyName": "Meta Platforms Inc.",
-    "id": 2,
-    "description": "Instantly connect with friends and family using free text, voice, and video messages.",
-    "size": 90,
-    "reviews": "56M",
-    "ratingAvg": 4.3,
-    "downloads": "5B",
-    "ratings": [
-      { "name": "1 star", "count": "3.2M" },
-      { "name": "2 star", "count": "2.1M" },
-      { "name": "3 star", "count": "6M" },
-      { "name": "4 star", "count": "18M" },
-      { "name": "5 star", "count": "27M" }
-    ]
-  },
-  {
-    "image": "https://image2url.com/images/1763026301429-35b4253c-98b7-476f-bb0d-de8f50766ad6.png",
-    "title": "WhatsApp",
-    "companyName": "Meta Platforms Inc.",
-    "id": 3,
-    "description": "Fast, simple, and secure messaging app that lets you stay in touch with anyone, anywhere.",
-    "size": 80,
-    "reviews": "190M",
+    "image": "https://images.unsplash.com/photo-1501973801540-537f08ccae7b",
+    "title": "Weather Wizard",
+    "companyName": "SkyTech",
+    "description": "Check live weather and forecasts worldwide.",
+    "size": 25,
+    "reviews": 124,
     "ratingAvg": 4.5,
-    "downloads": "5B",
-    "ratings": [
-      { "name": "1 star", "count": "8.5M" },
-      { "name": "2 star", "count": "5M" },
-      { "name": "3 star", "count": "9M" },
-      { "name": "4 star", "count": "35M" },
-      { "name": "5 star", "count": "137M" }
-    ]
+    "downloads": "50K"
   },
   {
-    "image": "https://image2url.com/images/1763026402555-02feab78-d699-4cce-b2bf-6fbb8a3fc277.webp",
-    "title": "Instagram",
-    "companyName": "Meta Platforms Inc.",
-    "id": 4,
-    "description": "Share your photos, stories, and connect with friends, influencers, and brands worldwide.",
-    "size": 150,
-      "reviews": "145M",
-    "ratingAvg": 4.4,
-    "downloads": "5B",
-    "ratings": [
-      { "name": "1 star", "count": "7.2M" },
-      { "name": "2 star", "count": "4.9M" },
-      { "name": "3 star", "count": "10M" },
-      { "name": "4 star", "count": "28M" },
-      { "name": "5 star", "count": "95M" }
-    ]
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b",
+    "title": "Fitness Pro",
+    "companyName": "HealthCorp",
+    "description": "Personalized workouts and fitness tracking.",
+    "size": 40,
+    "reviews": 200,
+    "ratingAvg": 4.7,
+    "downloads": "75K"
   },
   {
-    "image": "https://image2url.com/images/1763026481849-16cbc816-486e-4248-bc1c-fda19e133c3b.png",
-    "title": "imo",
-    "companyName": "imo.im",
-    "id": 5,
-    "description": "Free video calls and chat app for staying connected with loved ones worldwide.",
-    "size": 60,
-     "reviews": "8.2M",
-    "ratingAvg": 4.1,
-    "downloads": "1B",
-    "ratings": [
-      { "name": "1 star", "count": "600K" },
-      { "name": "2 star", "count": "400K" },
-      { "name": "3 star", "count": "1M" },
-      { "name": "4 star", "count": "2.1M" },
-      { "name": "5 star", "count": "4.1M" }
-    ]
-  },
-  {
-    "image": "https://image2url.com/images/1763026548520-b408da24-7024-4d72-89f4-5883e91002b1.webp",
-    "title": "Viber",
-    "companyName": "Rakuten Viber",
-    "id": 6,
-    "description": "Make free calls, send messages, and share media with friends on Viber.",
-    "size": 85,
-    "reviews": "12.5M",
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061",
+    "title": "Recipe Master",
+    "companyName": "Foodie Labs",
+    "description": "Discover and save thousands of recipes.",
+    "size": 35,
+    "reviews": 180,
     "ratingAvg": 4.3,
-    "downloads": "1B",
-    "ratings": [
-      { "name": "1 star", "count": "700K" },
-      { "name": "2 star", "count": "500K" },
-      { "name": "3 star", "count": "1.3M" },
-      { "name": "4 star", "count": "3.1M" },
-      { "name": "5 star", "count": "6.9M" }
-    ]
+    "downloads": "62K"
   },
   {
-    "image": "https://image2url.com/images/1763026686931-5d648f14-e9db-4918-bd10-8020d37c57d1.png",
-    "title": "Snapchat",
-    "companyName": "Snap Inc.",
-    "id": 7,
-    "description": "Share moments instantly and stay connected through Snaps, chats, and stories.",
-    "size": 95,
-   "reviews": "30M",
-    "ratingAvg": 4.2,
-    "downloads": "1B",
-    "ratings": [
-      { "name": "1 star", "count": "1.8M" },
-      { "name": "2 star", "count": "1.4M" },
-      { "name": "3 star", "count": "3.2M" },
-      { "name": "4 star", "count": "8M" },
-      { "name": "5 star", "count": "15.6M" }
-    ]
-  },
-  {
-    "image": "https://image2url.com/images/1763026757969-40d6e09d-11a3-4c54-95f4-62a57fc77325.png",
-    "title": "Telegram",
-    "companyName": "Telegram FZ-LLC",
-    "id": 8,
-    "description": "A fast, secure, and powerful messaging app with cloud-based sync and large file sharing.",
-    "size": 70,
-    "reviews": "25M",
+    "id": 4,
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+    "title": "Travel Buddy",
+    "companyName": "GlobeTrek",
+    "description": "Plan trips and explore new destinations.",
+    "size": 50,
+    "reviews": 90,
     "ratingAvg": 4.6,
-    "downloads": "1B",
-    "ratings": [
-      { "name": "1 star", "count": "1M" },
-      { "name": "2 star", "count": "700K" },
-      { "name": "3 star", "count": "1.2M" },
-      { "name": "4 star", "count": "4.8M" },
-      { "name": "5 star", "count": "17.3M" }
-    ]
+    "downloads": "40K"
   },
   {
-    "image": "https://image2url.com/images/1763026841581-40f99a64-f9e3-4330-bcd6-b29ef709639f.webp",
-    "title": "LINE",
-    "companyName": "LINE Corporation",
-    "id": 9,
-    "description": "Free voice calls, messaging, stickers, and updates from your favorite brands.",
-    "size": 88,
-     "reviews": "11M",
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773",
+    "title": "Mindful Meditation",
+    "companyName": "ZenApps",
+    "description": "Guided meditations to reduce stress.",
+    "size": 22,
+    "reviews": 150,
+    "ratingAvg": 4.8,
+    "downloads": "85K"
+  },
+  {
+    "id": 6,
+    "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f",
+    "title": "Budget Tracker",
+    "companyName": "FinanceSoft",
+    "description": "Track expenses and manage your budget easily.",
+    "size": 30,
+    "reviews": 210,
     "ratingAvg": 4.2,
-    "downloads": "500M",
-    "ratings": [
-      { "name": "1 star", "count": "600K" },
-      { "name": "2 star", "count": "430K" },
-      { "name": "3 star", "count": "1M" },
-      { "name": "4 star", "count": "2.5M" },
-      { "name": "5 star", "count": "6.5M" }
-    ]
+    "downloads": "67K"
   },
   {
-    "image": "https://image2url.com/images/1763026920598-f716909b-0e45-4cd0-9cdc-fa346b7ce850.png",
-    "title": "WeChat",
-    "companyName": "Tencent",
+    "id": 7,
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32",
+    "title": "Photo Editor X",
+    "companyName": "PixelLabs",
+    "description": "Edit photos with advanced tools and filters.",
+    "size": 55,
+    "reviews": 300,
+    "ratingAvg": 4.4,
+    "downloads": "95K"
+  },
+  {
+    "id": 8,
+    "image": "https://images.unsplash.com/photo-1513258496099-48168024aec0",
+    "title": "Language Learner",
+    "companyName": "EduTech",
+    "description": "Learn new languages with fun lessons.",
+    "size": 28,
+    "reviews": 120,
+    "ratingAvg": 4.5,
+    "downloads": "50K"
+  },
+  {
+    "id": 9,
+    "image": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b",
+    "title": "Task Manager",
+    "companyName": "Productive Inc",
+    "description": "Organize your tasks and projects efficiently.",
+    "size": 18,
+    "reviews": 90,
+    "ratingAvg": 4.1,
+    "downloads": "30K"
+  },
+  {
     "id": 10,
-    "description": "Multi-purpose app for messaging, payments, and social networking.",
-    "size": 180,
-     "reviews": "8.5M",
+    "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c",
+    "title": "News Daily",
+    "companyName": "InfoStream",
+    "description": "Get daily news updates from around the world.",
+    "size": 33,
+    "reviews": 200,
+    "ratingAvg": 4.3,
+    "downloads": "60K"
+  },
+  {
+    "id": 11,
+    "image": "https://images.unsplash.com/photo-1599058917212-d750089bc07e",
+    "title": "Workout Timer",
+    "companyName": "FitTech",
+    "description": "Customizable timers for your workouts.",
+    "size": 20,
+    "reviews": 80,
     "ratingAvg": 4.0,
-    "downloads": "1B",
-    "ratings": [
-      { "name": "1 star", "count": "700K" },
-      { "name": "2 star", "count": "500K" },
-      { "name": "3 star", "count": "1.2M" },
-      { "name": "4 star", "count": "2.2M" },
-      { "name": "5 star", "count": "3.9M" }
-    ]
+    "downloads": "25K"
+  },
+  {
+    "id": 12,
+    "image": "https://images.unsplash.com/photo-1524985069026-dd778a71c7b4",
+    "title": "Movie Finder",
+    "companyName": "CinemaSoft",
+    "description": "Search movies, watch trailers, and get reviews.",
+    "size": 45,
+    "reviews": 150,
+    "ratingAvg": 4.6,
+    "downloads": "70K"
   }
 ]

@@ -1,20 +1,15 @@
-import axios from 'axios'
-import { useEffect, useState } from 'react'
+import { useEffect, useState } from "react";
 
 const useProducts = () => {
-  const [products, setProducts] = useState([])
-  const [loading, setLoading] = useState(true)
-  const [error, setError] = useState(null)
+  const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    setLoading(true)
-    axios('./newAppData.json')
-      .then(products => setProducts(products.products))
-      .catch(err => setError(err))
-      .finally(() => setLoading(false))
-  }, [])
+    fetch("/newAppData.json")
+      .then(res => res.json())
+      .then(data => setProducts(data));
+  }, []);
 
-  return { products, loading, error }
-}
+  return { products };
+};
 
-export default useProducts
+export default useProducts;
