@@ -1,6 +1,11 @@
 import React from "react";
+import { installApp } from "../../components/Utilities/localstorage";
 
 const HeaderSection = ({ product }) => {
+const handleInstall = () => {
+    installApp(product);
+  };
+
   return (
     <div className="flex flex-col md:flex-row items-center justify-between bg-white p-6 rounded shadow mb-6 gap-6">
       <img src={product.image} alt={product.title} className="h-24 w-24 md:h-32 md:w-32" />
@@ -23,8 +28,8 @@ const HeaderSection = ({ product }) => {
             <span className="text-gray-500 text-sm">Total Reviews</span>
           </div>
         </div>
-        <button className="mt-4 bg-green-500 text-white px-4 py-2 rounded">
-          Install Now ({product.size})
+        <button onClick={handleInstall} className="mt-4 bg-green-500 text-white px-4 py-2 rounded">
+          Install Now ({product.size}MB)
         </button>
       </div>
     </div>

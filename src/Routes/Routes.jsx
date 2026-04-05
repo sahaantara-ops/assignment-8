@@ -2,6 +2,7 @@ import React, { Suspense } from 'react';
 import { createBrowserRouter, RouterProvider} from "react-router";
 import Errorpage from '../pages/ErrorPage/ErrorPage';
 import ProductDetails from '../pages/ProductDetails/ProductDetails';
+import Installation from '../pages/Installation/Installation';
 
 
 import Home from '../pages/Home/Home';
@@ -38,7 +39,10 @@ import Apps from '../pages/Apps/Apps';
           </Suspense>
         ),
       },
-    
+    {
+        path: "/Readlist", // Matches the <Link to='Readlist'> in your Navbar
+        element: <Installation  />,
+      },
         
             
     ]

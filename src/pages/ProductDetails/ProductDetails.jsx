@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import HeaderSection from "../../components/Header Section/HeaderSection";
-import RatingsChart from "../../components/RatingChart/RatingChart";
+import RatingChart from "../../components/RatingChart/RatingChart";
 import Description from "../../components/Description/Description";
 
 const ProductDetail = () => {
@@ -8,7 +8,7 @@ const ProductDetail = () => {
 
   useEffect(() => {
     // Fetch the JSON file from public folder
-    fetch("/newAppData.JSON")
+    fetch("/newAppData.json")
       .then((res) => res.json())
       .then((data) => {
         // Example: pick the first product
@@ -24,7 +24,7 @@ const ProductDetail = () => {
   return (
     <div className="p-6 max-w-4xl mx-auto">
       <HeaderSection product={product} />
-      <RatingsChart ratings={product.ratings} />
+      <RatingChart ratingAvg={product.ratingAvg} />
       <Description description={product.description} />
     </div>
   );
