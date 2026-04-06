@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { getInstalledApps } from '../../components/Utilities/localstorage';
 import { FcRating } from "react-icons/fc";
 import { PiDownloadSimpleLight } from "react-icons/pi";
+import Swal from 'sweetalert2';
 
 const Installation = () => {
     const [installedApps, setInstalledApps] = useState([]);
@@ -21,7 +22,13 @@ const Installation = () => {
     setInstalledApps(updatedApps);
     
     // Optional: Add a little feedback
-    alert("App uninstalled successfully!");
+    Swal.fire({
+        title: 'Uninstalled!',
+        text: 'The app has been successfully uninstalled.',
+        icon: 'success',
+        confirmButtonColor: '#3085d6',
+        confirmButtonText: 'OK'
+    });
 };
 
     useEffect(() => {
@@ -31,7 +38,7 @@ const Installation = () => {
 
     return (
         <div className="p-8">
-            <h1 className="text-2xl font-bold mb-6">Installed Applications</h1>
+            <h1 className="text-2xl font-bold mb-6"> Your Installed Applications</h1>
             {installedApps.length === 0 ? (
                 <p>No apps installed yet.</p>
             ) : (

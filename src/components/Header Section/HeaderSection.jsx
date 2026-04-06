@@ -1,9 +1,17 @@
 import React from "react";
 import { installApp } from "../../components/Utilities/localstorage";
+import Swal from "sweetalert2";
 
 const HeaderSection = ({ product }) => {
 const handleInstall = () => {
     installApp(product);
+     Swal.fire({
+        title: 'Installed!',
+        text: `${product.title} has been successfully installed.`,
+        icon: 'success',
+        confirmButtonColor: '#3085d6',
+        confirmButtonText: 'OK'
+    });
   };
 
   return (
@@ -16,11 +24,11 @@ const handleInstall = () => {
         </p>
         <div className="flex gap-6 mt-2">
           <div className="text-center">
-            <p className="font-bold">{product.downloads}</p>
+            <p className="font-bold">{product.downloads} ⬇</p>
             <span className="text-gray-500 text-sm">Downloads</span>
           </div>
           <div className="text-center">
-            <p className="font-bold">{product.rating}</p>
+            <p className="font-bold">{product.ratingAvg} ⭐</p>
             <span className="text-gray-500 text-sm">Average Ratings</span>
           </div>
           <div className="text-center">

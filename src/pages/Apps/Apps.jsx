@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router";
 
 const Apps = () => {
   const [apps, setApps] = useState([]);
@@ -40,6 +41,10 @@ const Apps = () => {
       });
   }, []);
 
+  
+
+
+
   if (loading) {
     return <div className="text-center mt-10">Loading apps...</div>;
   }
@@ -78,39 +83,39 @@ const Apps = () => {
       {/* Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         
-        {apps.map((app) => (
-          <div
-            key={app.id}
-            className="bg-white rounded-2xl shadow-md hover:shadow-xl transition duration-300 p-4 cursor-pointer"
-          >
-            
-            {/* Image */}
-            <img
-              src={app.image}
-              alt={app.title}
-              className="w-full h-40 object-cover rounded-xl mb-4"
-            />
+       {apps.map((app) => (
+  <Link key={app.id} to={`/apps/${app.id}`}>
+    <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition duration-300 p-4 cursor-pointer">
+      
+      {/* Image */}
+      <img
+        src={app.image}
+        alt={app.title}
+        className="w-full h-40 object-cover rounded-xl mb-4"
+      />
 
-            {/* Title */}
-            <h2 className="text-lg font-semibold">{app.title}</h2>
+      {/* Title */}
+      <h2 className="text-lg font-semibold">{app.title}</h2>
 
-            {/* Company */}
-            <p className="text-sm text-gray-500 mb-2">
-              {app.companyName}
-            </p>
+      {/* Company */}
+      <p className="text-sm text-gray-500 mb-2">
+        {app.companyName}
+      </p>
 
-            {/* Description */}
-            <p className="text-sm text-gray-600 line-clamp-2 mb-3">
-              {app.description}
-            </p>
+      {/* Description */}
+      <p className="text-sm text-gray-600 line-clamp-2 mb-3">
+        {app.description}
+      </p>
 
-            {/* Info */}
-            <div className="flex justify-between text-sm mt-2">
-              <span>⭐ {app.ratingAvg}</span>
-              <span>⬇ {app.downloads}</span>
-            </div>
-          </div>
-        ))}
+      {/* Info */}
+      <div className="flex justify-between text-sm mt-2">
+        <span>⭐ {app.ratingAvg}</span>
+        <span>⬇ {app.downloads}</span>
+      </div>
+
+    </div>
+  </Link>
+))}
 
       </div>
     </div>

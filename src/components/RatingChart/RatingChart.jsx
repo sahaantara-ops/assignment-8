@@ -1,17 +1,20 @@
-import React from "react";
-import { ResponsiveContainer ,BarChart,CartesianGrid, XAxis,YAxis,Tooltip,Bar,} from "recharts";
-const RatingChart = ({ ratingAvg }) => {
-  if (!ratingAvg) {
+
+import { ResponsiveContainer ,BarChart,CartesianGrid, XAxis,YAxis,Tooltip,Bar,}
+ from "recharts";
+
+const RatingChart = ({ product }) => {
+  if (!product || !product.ratingBreakdown) {
     return <p>No ratings available</p>;
   }
 
-  // Fake distribution based on average
+  const breakdown = product.ratingBreakdown;
+
   const data = [
-    { name: "5★", value: Math.round(ratingAvg * 20) },
-    { name: "4★", value: Math.round(ratingAvg * 15) },
-    { name: "3★", value: Math.round(ratingAvg * 10) },
-    { name: "2★", value: Math.round(ratingAvg * 5) },
-    { name: "1★", value: Math.round(ratingAvg * 2) },
+    { name: "5★", value: breakdown["5"] },
+    { name: "4★", value: breakdown["4"] },
+    { name: "3★", value: breakdown["3"] },
+    { name: "2★", value: breakdown["2"] },
+    { name: "1★", value: breakdown["1"] },
   ];
 
   return (
